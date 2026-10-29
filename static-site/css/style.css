@@ -1,0 +1,20 @@
+:root {
+  --bg: #FAF8F5;
+  --surface: #FFFFFF;
+  --text: #1C1C1C;
+  --text-soft: #6B6B6B;
+  --border: #E8E4DE;
+  --brand: #B5533C;
+  --accent: #D9A441;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
