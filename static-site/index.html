@@ -3,87 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marketplace Nepal</title>
+  <title>SAMI</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
+<main class="page">
 
-    <header>
-    <h1>Marketplace Nepal</h1>
-    <input type="search" placeholder="Search for clothes, shops...">
-    <a href="cart.html">Cart</a>
-  </header>
+  <section id="home" class="hero">
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#discover">Discover</a>
+      </div>
 
-  <main>
+      <a class="nav-cta" href="#discover">Explore labels</a>
+    </nav>
 
-    <section>
-      <h2>Shop local, shop independent</h2>
-      <p>Discover Nepali fashion shops all in one place.</p>
-    </section>
+    <div class="hero-copy">
+      <p class="hero-brand" aria-label="SAMI">SAMI</p>
+      <p class="eyebrow">Independent fashion, thoughtfully found</p>
+      <h1>
+        Fashion,
+        <br>
+        <em>all in one place.</em>
+      </h1>
+      <p class="hero-description">
+        A curated marketplace for independent labels, rare pieces, and the
+        people shaping what comes next.
+      </p>
+      <a class="primary-button" href="#about">
+        About us
+        <span aria-hidden="true" class="button-arrow"><span></span></span>
+      </a>
+    </div>
 
-    <section>
-      <h2>Categories</h2>
-      <ul>
-        <li><a href="#">Clothes</a></li>
-        <li><a href="#">Jewellery</a></li>
-        <li><a href="#">Shoes</a></li>
-        <li><a href="#">Makeup</a></li>
-        <li><a href="#">Skincare</a></li>
-      </ul>
-    </section>
+    <div class="hero-image-wrap">
+      <div class="image-index" aria-hidden="true">
+        <span>01</span>
+        <span>SAMI / EDIT 001</span>
+      </div>
+      <figure class="hero-figure">
+        <img
+          src="images/sami-editorial.jpg"
+          alt="Model wearing a chic black tailored look and statement accessories">
+        <figcaption>
+          <span>New perspective</span>
+          <span>Selected by SAMI</span>
+        </figcaption>
+      </figure>
+      <p class="vertical-note">CURATED GLOBALLY — WORN PERSONALLY</p>
+    </div>
 
-    <section>
-      <h2>Featured shops</h2>
-      <ul>
-        <li><a href="shop.html">Shop One</a></li>
-        <li><a href="shop.html">Shop Two</a></li>
-        <li><a href="shop.html">Shop Three</a></li>
-      </ul>
-    </section>
+    <div class="scroll-cue" aria-hidden="true">
+      <span>Scroll to discover</span>
+      <i></i>
+    </div>
+  </section>
 
-    <section>
-      <h2>New arrivals</h2>
+  <section id="about" class="about-section">
+    <div class="about-number">01 / OUR STORY</div>
+    <div class="about-copy">
+      <p class="eyebrow">More than a marketplace</p>
+      <h2>
+        We bring independent
+        <br>
+        voices <em>into view.</em>
+      </h2>
+      <div class="about-details">
+        <p>
+          SAMI is a destination for discovering fashion with a point of
+          view. We connect curious dressers with emerging designers and
+          independent labels from around the world.
+        </p>
+        <p>
+          Every collection is chosen for its craft, character, and ability
+          to make the everyday feel entirely your own.
+        </p>
+      </div>
+    </div>
+  </section>
 
-      <article>
-        <a href="product.html">
-          <img src="images/product1.jpg" alt="Black skirt">
-          <h3>Black Midi Skirt</h3>
-        </a>
-        <p>Rs. 1,800</p>
-      </article>
-
-      <article>
-        <a href="product.html">
-          <img src="images/product2.jpg" alt="Casual top">
-          <h3>Casual Cotton Top</h3>
-        </a>
-        <p>Rs. 1,200</p>
-      </article>
-
-      <article>
-        <a href="product.html">
-          <img src="images/product3.jpg" alt="Party dress">
-          <h3>Party Wear Dress</h3>
-        </a>
-        <p>Rs. 3,500</p>
-      </article>
-
-      <article>
-        <a href="product.html">
-          <img src="images/product4.jpg" alt="Denim jeans">
-          <h3>High-Waist Jeans</h3>
-        </a>
-        <p>Rs. 2,200</p>
-      </article>
-    </section>
-
-  </main>
+  <section id="discover" class="discover-strip">
+    <p>Wear what moves you.</p>
+    <a href="#home">
+      Start exploring
+      <span aria-hidden="true" class="button-arrow"><span></span></span>
+    </a>
+  </section>
 
   <footer>
-    <p>&copy; 2026 Marketplace Nepal</p>
+    <a class="wordmark" href="#home">SAMI</a>
+    <p>Fashion, all in one place.</p>
+    <p>&copy; 2026 SAMI</p>
   </footer>
 
+</main>
 </body>
 </html>
